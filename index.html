@@ -28,18 +28,28 @@
     </nav>
   </header>
 
+  
   <div class="cover">
     <h1>Descubre Guanajuato.</h1>
     <form  class="flex-form">
-      <label for="from">
-        <i class="ion-location"></i>
-      </label>
-      <input type="search" placeholder="¿A dónde quieres ir hoy?">
-      <input type="submit" value="Buscar">
+      <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+      
+    
     </form>
-    <div id="madeby"></div>
+    <!-- <div id="madeby"></div> -->
   </div>
 </div>
 
+
+
+
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIdxjSv6ryGgndpGEofce3YfLSTJV-W7g&libraries=places&callback=initAutocomplete"
+         async defer></script>
+
+<script src="js/app.js"></script>
   </body>
 </html>
